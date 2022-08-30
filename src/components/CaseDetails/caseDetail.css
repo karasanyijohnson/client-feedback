@@ -1,0 +1,11 @@
+.caseInputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.caseInputContainer>input{
+    height: 25px;
+}
+.caseInputContainer>label{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.inputContainer>input{
+    width: 500px;
+    height: 25px;
+}
+.inputContainer>label{
+    margin-bottom: 10px;
+}

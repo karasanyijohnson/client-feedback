@@ -1,0 +1,6 @@
+.representative{
+    padding: 10px;
+}
+.representative >h3{
+    cursor: pointer;
+}

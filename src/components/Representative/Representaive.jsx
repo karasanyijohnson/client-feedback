@@ -5,6 +5,9 @@ import "./representative.css";
 
 const Representative = () => {
   const [representative, setRepresentative]= useState(false)
+  const [representativeFullName, setRepresentativeFullName]=useState('')
+  const [representativeEmail, setRepresentativeEmail]=useState('')
+  const [representativePhoneNumber, setRepresentativePhoneNumber]=useState('')
   return (
     <div className="representative">
       <h2>REPRESENTATIVE</h2>

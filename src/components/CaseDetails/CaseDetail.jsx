@@ -1,6 +1,9 @@
+import React, {useState} from 'react'
 import './caseDetail.css'
 
 const CaseDetail=()=>{
+    const [caseTitle, setCaseTitle]=useState("")
+    const [caseDescription, setCaseDescription]=useState("")
     return(
         <div className="caseDetail">
             <h2>CASE DETAIL</h2>

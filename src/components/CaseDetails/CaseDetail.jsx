@@ -12,7 +12,7 @@ const CaseDetail=()=>{
                 <label>Description</label>
                 <textarea name="Comment"  cols="50" rows="10"></textarea>
             </div>
-            <button>Submit</button>
+            <button type='Submit'>Submit</button>
         </div>
     )
 }

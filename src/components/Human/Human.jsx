@@ -6,7 +6,7 @@ const Human = () => {
     <div className="humanContainer">
       <h2>HUMAN</h2>
       <Form Name="Full name" Email="Email" Phone="Phone number" />
-      <button>Save</button>
+      <button type='submit'>Save</button>
     </div>
   );
 };

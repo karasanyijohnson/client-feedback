@@ -15,7 +15,7 @@ const Representative = () => {
        Email="Representative email"
        Phone="Representative phone number"
      />
-     <button>Save</button>
+     <button type='submit'>Save</button>
      </div>
       )}
     </div>

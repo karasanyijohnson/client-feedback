@@ -23,8 +23,8 @@ export const CreatePerson = (primary_phone, primary_email, full_name) => {
   // dispatch(resData)
   // }
 
-  return fetch('http://api.proto.cx/case/person', {
-    mode: 'no-cors',
+  return fetch('https://api.proto.cx/case/person', {
+    // mode: 'no-cors',
     method: 'POST',
     headers: {
       'X-SINITIC-TOKEN': 'gAAAAABi92-gD7db3AO6SXAfinsm6cC5_qg0e3mCVyW4z4mQ9z7Gkhtis07wYlwuKbmD5rthvyVtUYU5zFOn-GCozVzNCf9VPH43Cdp5BmoCpMP7_Mj5wNTyuodIAbttzHEEBgfaqpTO',

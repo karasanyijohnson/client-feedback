@@ -36,8 +36,8 @@ export const  CreatePerson = (primary_phone, primary_email, full_name) => {
       full_name: full_name
     })
   })
-    .then(data => console.log(data.json()))
-    //.then(res => console.log(res))
+    // .then(data => console.log(data.json()))
+    .then(res => console.log(res))
 }
 export const CreateRepresentative = () => {
 
